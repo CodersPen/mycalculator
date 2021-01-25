@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-type calc struct {
+type Calc struct {
 }
 
 func (calc) operate(entrada string, operador string) int {
